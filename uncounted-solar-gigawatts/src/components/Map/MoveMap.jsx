@@ -12,7 +12,6 @@ function MoveMap({ selectedAOI }) {
     const moveToAOI = async () => {
       try {
         const url = `${API_URL}/aois/${selectedAOI}/boundary`;
-
         const response = await fetch(url);
 
         if (!response.ok) {
@@ -22,17 +21,8 @@ function MoveMap({ selectedAOI }) {
         }
 
         const result = await response.json();
-
-        // Backend response:
-        // {
-        //   success: true,
-        //   data: <GeoJSON>
-        // }
-
         const geojson = result.data ?? result;
-
         const bounds = new google.maps.LatLngBounds();
-
         geojson.features?.forEach((feature) => {
           addCoordinatesToBounds(
             feature.geometry,
@@ -59,17 +49,13 @@ function MoveMap({ selectedAOI }) {
 
 function addCoordinatesToBounds(geometry, bounds) {
   if (!geometry) return;
-
   const { type, coordinates } = geometry;
-
   if (type === "Point") {
     const [lng, lat] = coordinates;
-
     bounds.extend({
       lat,
       lng,
     });
-
     return;
   }
 

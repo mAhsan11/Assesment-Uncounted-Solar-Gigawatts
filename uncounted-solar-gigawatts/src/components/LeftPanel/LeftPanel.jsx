@@ -21,7 +21,7 @@ function LeftPanel({
   return (
     <aside className="left-panel">
       <section className="panel-section">
-        <h2>Area of Interest</h2>
+        <h2>Area of Interest (City)</h2>
 
         <label htmlFor="aoi-select">
           AOI

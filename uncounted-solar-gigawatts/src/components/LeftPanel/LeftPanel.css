@@ -8,23 +8,12 @@
   min-width: 0;
   min-height: 0;
   box-sizing: border-box;
-
   padding: clamp(8px, 1vw, 18px);
-
   background: #f9f9f9;
   color: #0a2342;
-
   display: grid;
-
-  /*
-    AOI      -> only needs the space it requires
-    Stats    -> takes remaining available space
-    Legend   -> only needs the space it requires
-  */
   grid-template-rows: auto auto auto;
-
   gap: clamp(12px, 1vw, 16px);
-
   overflow: hidden;
 }
 
@@ -38,15 +27,11 @@
   min-width: 0;
   min-height: 0;
   box-sizing: border-box;
-
   padding: clamp(10px, 1vw, 16px);
-
   background: #ffffff;
   border: 1px solid #e5e5e5;
   border-radius: clamp(7px, 0.6vw, 10px);
-
   box-shadow: 0 2px 6px rgba(10, 35, 66, 0.06);
-
   overflow: hidden;
 }
 
@@ -57,12 +42,9 @@
 
 .panel-section h2 {
   margin: 0 0 clamp(8px, 0.8vw, 14px);
-
   color: #0a2342;
-
   font-size: clamp(12px, 0.9vw, 15px);
   font-weight: 700;
-
   letter-spacing: 0.2px;
 }
 
@@ -73,14 +55,10 @@
 
 .panel-section label {
   display: block;
-
   margin-bottom: clamp(5px, 0.5vw, 7px);
-
   color: #2e4057;
-
   font-size: clamp(9px, 0.75vw, 12px);
   font-weight: 600;
-
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
@@ -88,25 +66,17 @@
 
 .panel-section select {
   width: 100%;
-
   height: clamp(34px, 2.8vw, 42px);
-
   padding: 0 clamp(8px, 0.8vw, 12px);
-
   box-sizing: border-box;
-
   border: 1px solid #e5e5e5;
   border-radius: clamp(5px, 0.5vw, 7px);
-
   background: #f9f9f9;
   color: #0a2342;
-
   font-size: clamp(11px, 0.85vw, 14px);
   font-weight: 600;
-
   cursor: pointer;
   outline: none;
-
   transition:
     border-color 0.15s ease,
     box-shadow 0.15s ease,
@@ -121,9 +91,7 @@
 
 .panel-section select:focus {
   border-color: #1ba098;
-
   box-shadow: 0 0 0 3px rgba(27, 160, 152, 0.12);
-
   background: #ffffff;
 }
 
@@ -134,11 +102,8 @@
 
 .select-type {
   display: inline-block;
-
   margin-top: clamp(5px, 0.5vw, 8px);
-
   color: #2e4057;
-
   font-size: clamp(8px, 0.7vw, 11px);
   font-weight: 500;
 }
@@ -148,51 +113,32 @@
    Statistics Section
 ========================================= */
 
-/*
-  Statistics can grow/shrink and scroll if
-  the available height becomes too small.
-*/
-
 .statistics-status {
   padding: clamp(10px, 0.9vw, 14px);
-
   border-radius: 7px;
-
   background: #f9f9f9;
   color: #2e4057;
-
   font-size: clamp(10px, 0.8vw, 13px);
-
   text-align: center;
 }
-
 
 .statistics-error {
   display: flex;
   flex-direction: column;
-
   gap: 4px;
-
   padding: clamp(9px, 0.8vw, 12px);
-
   border-left: 3px solid #d95f3b;
   border-radius: 5px;
-
   background: rgba(217, 95, 59, 0.08);
   color: #2e4057;
-
   font-size: clamp(9px, 0.75vw, 12px);
-
   line-height: 1.5;
 }
 
-
 .statistics-error strong {
   color: #d95f3b;
-
   font-size: clamp(9px, 0.75vw, 12px);
 }
-
 
 /* =========================================
    Individual Statistic
@@ -200,29 +146,22 @@
 
 .stat-item {
   position: relative;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   gap: clamp(6px, 0.8vw, 12px);
-
   padding: clamp(7px, 0.8vw, 12px) 3px;
-
   border-bottom: 1px solid #e5e5e5;
 }
-
 
 .stat-item:last-child {
   border-bottom: none;
   padding-bottom: 3px;
 }
 
-
 .stat-item:first-child {
   padding-top: 2px;
 }
-
 
 /* =========================================
    Statistic Label
@@ -230,20 +169,11 @@
 
 .stat-label {
   min-width: 0;
-
   color: #2e4057;
-
   font-size: clamp(9px, 0.75vw, 12px);
-
   line-height: 1.4;
-
-  /*
-    Prevent long labels from pushing values
-    outside the panel.
-  */
   overflow-wrap: break-word;
 }
-
 
 /* =========================================
    Statistic Value
@@ -251,19 +181,12 @@
 
 .stat-value {
   flex-shrink: 0;
-
   color: #0f7a6e;
-
   font-size: clamp(10px, 0.85vw, 14px);
   font-weight: 700;
-
   text-align: right;
-
   white-space: nowrap;
 }
-
-
-/* Installed capacity emphasis */
 
 .stat-item:first-child .stat-value {
   color: #f5a623;
@@ -277,7 +200,6 @@
 .legend-section {
   display: flex;
   flex-direction: column;
-
   border-top: 1px solid #e5e5e5;
 }
 
@@ -285,33 +207,23 @@
 .legend-item {
   display: flex;
   align-items: center;
-
   gap: clamp(6px, 0.7vw, 10px);
-
   margin-bottom: clamp(5px, 0.6vw, 10px);
-
   color: #333;
-
   font-size: clamp(10px, 0.8vw, 14px);
 }
-
 
 .legend-item:last-child {
   margin-bottom: 0;
 }
 
-
 .legend-color {
   width: clamp(12px, 1.1vw, 18px);
   height: clamp(12px, 1.1vw, 18px);
-
   border-radius: 4px;
-
   display: inline-block;
-
   flex-shrink: 0;
 }
-
 
 /* =========================================
    Legend Colors
@@ -322,18 +234,15 @@
   border: 3px solid #1ba098;
 }
 
-
 .legend-building {
   background-color: rgba(15, 122, 110, 0.25);
   border: 2px solid #0a2342;
 }
 
-
 .legend-solar {
   background-color: #f5a623;
   border: 2px solid #f5a623;
 }
-
 
 /* =========================================
    Small Laptop Height
@@ -361,7 +270,6 @@
     margin-bottom: 5px;
   }
 }
-
 
 /* =========================================
    Very Small Laptop
@@ -410,7 +318,6 @@
   }
 }
 
-
 /* =========================================
    Narrow Screens
 ========================================= */
@@ -429,7 +336,6 @@
     gap: 7px;
   }
 }
-
 
 /* =========================================
    Very Narrow Screens

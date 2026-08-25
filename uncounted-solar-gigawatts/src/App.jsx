@@ -3,7 +3,6 @@ import GoogleMap from './components/Map/GoogleMap'
 import Header from './components/Header/Header'
 import LeftPanel from './components/LeftPanel/LeftPanel'
 import './App.css'
-// import { use } from 'react'
 
 function App() {
   const [selectedAOI, setSelectedAOI] = useState("ISLD");
