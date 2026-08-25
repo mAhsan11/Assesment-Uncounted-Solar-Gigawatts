@@ -1,0 +1,7 @@
+const PANEL_AREA_SQM = 2.58;
+const PANEL_CAPACITY_WATTS = 580;
+
+module.exports = {
+  PANEL_AREA_SQM,
+  PANEL_CAPACITY_WATTS
+};

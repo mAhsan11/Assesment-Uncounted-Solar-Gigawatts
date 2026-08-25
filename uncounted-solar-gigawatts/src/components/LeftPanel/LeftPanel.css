@@ -1,0 +1,758 @@
+/* .left-panel {
+  width: 320px;
+  height: 100%;
+  flex-shrink: 0;
+
+  padding: 20px;
+
+  background: var(--color-white);
+  border-right: 1px solid var(--border-color);
+
+  overflow-y: auto;
+}
+
+.panel-section {
+  padding-bottom: 24px;
+}
+
+.panel-section + .panel-section {
+  padding-top: 24px;
+  border-top: 1px solid var(--border-color);
+}
+
+.panel-section h2 {
+  margin: 0 0 16px;
+
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.panel-section label {
+  display: block;
+  margin-bottom: 6px;
+
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.panel-section select {
+  width: 100%;
+  height: 40px;
+
+  padding: 0 12px;
+
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+
+  background: var(--color-white);
+  color: var(--text-primary);
+
+  cursor: pointer;
+}
+
+.panel-section select:focus {
+  outline: none;
+  border-color: var(--brand-teal);
+  box-shadow: 0 0 0 2px rgba(15, 122, 110, 0.12);
+}
+
+.select-type {
+  display: block;
+  margin-top: 6px;
+
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
+.stat-item {
+  padding: 12px 0;
+
+  border-bottom: 1px solid var(--border-color);
+}
+
+.stat-item:last-child {
+  border-bottom: none;
+}
+
+.stat-label {
+  display: block;
+
+  margin-bottom: 4px;
+
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.stat-value {
+  display: block;
+
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--brand-navy);
+} */
+
+/* second comment */
+/* .left-panel {
+  width: 100%;
+  height: 100%;
+
+  box-sizing: border-box;
+
+  padding: 20px 16px;
+
+  background: #f9f9f9;
+  color: #0a2342;
+
+  overflow-y: auto;
+} */
+
+
+/* --------------------------------
+   Sections
+-------------------------------- */
+
+/* .panel-section {
+  padding: 18px 14px;
+  margin-bottom: 16px;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+
+  box-shadow: 0 2px 6px rgba(10, 35, 66, 0.06);
+}
+
+.panel-section:last-child {
+  margin-bottom: 0;
+} */
+
+
+/* --------------------------------
+   Section headings
+-------------------------------- */
+
+/* .panel-section h2 {
+  margin: 0 0 16px;
+
+  color: #0a2342;
+
+  font-size: 15px;
+  font-weight: 700;
+
+  letter-spacing: 0.2px;
+} */
+
+
+/* --------------------------------
+   AOI Select
+-------------------------------- */
+
+/* .panel-section label {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color: #2e4057;
+
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+} */
+
+/* .panel-section select {
+  width: 100%;
+  height: 42px;
+
+  padding: 0 12px;
+
+  box-sizing: border-box;
+
+  border: 1px solid #e5e5e5;
+  border-radius: 7px;
+
+  background: #f9f9f9;
+  color: #0a2342;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  outline: none;
+
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease,
+    background 0.15s ease;
+}
+
+.panel-section select:hover {
+  border-color: #1ba098;
+}
+
+.panel-section select:focus {
+  border-color: #1ba098;
+
+  box-shadow: 0 0 0 3px rgba(27, 160, 152, 0.12);
+
+  background: #ffffff;
+} */
+
+
+/* --------------------------------
+   Select type
+-------------------------------- */
+
+/* .select-type {
+  display: inline-block;
+
+  margin-top: 8px;
+
+  color: #2e4057;
+
+  font-size: 11px;
+  font-weight: 500;
+} */
+
+
+/* --------------------------------
+   Statistics
+-------------------------------- */
+
+/* .statistics-status {
+  padding: 14px;
+
+  border-radius: 7px;
+
+  background: #f9f9f9;
+
+  color: #2e4057;
+
+  font-size: 13px;
+  text-align: center;
+}
+
+.statistics-error {
+  padding: 12px;
+
+  border-left: 3px solid #d95f3b;
+  border-radius: 5px;
+
+  background: rgba(217, 95, 59, 0.08);
+
+  color: #2e4057;
+
+  font-size: 12px;
+  line-height: 1.5;
+} */
+
+
+/* --------------------------------
+   Individual statistic
+-------------------------------- */
+
+/* .stat-item {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 12px;
+
+  padding: 13px 4px;
+
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.stat-item:last-child {
+  border-bottom: none;
+  padding-bottom: 4px;
+}
+
+.stat-item:first-child {
+  padding-top: 2px;
+} */
+
+
+/* --------------------------------
+   Statistic label
+-------------------------------- */
+
+/* .stat-label {
+  color: #2e4057;
+
+  font-size: 12px;
+  line-height: 1.4;
+} */
+
+
+/* --------------------------------
+   Statistic value
+-------------------------------- */
+
+/* .stat-value {
+  color: #0f7a6e;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  text-align: right;
+  white-space: nowrap;
+} */
+
+
+/* --------------------------------
+   Installed capacity emphasis
+-------------------------------- */
+
+/* .stat-item:first-child .stat-value {
+  color: #f5a623;
+} */
+
+
+/* --------------------------------
+   Responsive
+-------------------------------- */
+
+/* @media (max-width: 768px) {
+  .left-panel {
+    padding: 12px;
+  }
+
+  .panel-section {
+    padding: 15px 12px;
+  }
+
+  .stat-label {
+    font-size: 11px;
+  }
+
+  .stat-value {
+    font-size: 13px;
+  }
+}
+
+.statistics-error {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  padding: 12px;
+
+  border-left: 3px solid #d95f3b;
+  border-radius: 5px;
+
+  background: rgba(217, 95, 59, 0.08);
+
+  color: #2e4057;
+
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.statistics-error strong {
+  color: #d95f3b;
+  font-size: 12px;
+}
+
+.left-panel {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.panel-section {
+  padding: 16px;
+}
+
+.legend-section {
+  border-top: 1px solid #e5e5e5;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #333;
+}
+
+.legend-color {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.legend-boundary {
+  background-color: rgba(27, 160, 152, 0.08);
+  border: 3px solid #1BA098;
+}
+
+.legend-building {
+  background-color: rgba(15, 122, 110, 0.25);
+  border: 2px solid #0A2342;
+}
+
+.legend-solar {
+  background-color: #F5A623;
+  border: 2px solid #F5A623;
+} */
+
+
+
+/* Third */
+.left-panel {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  box-sizing: border-box;
+  padding: clamp(10px, 1.2vw, 20px);
+  background: #f9f9f9;
+  color: #0a2342;
+  display: grid;
+  grid-template-rows: 27% 43% 25%;
+  row-gap: 2%;
+  overflow: hidden;
+}
+
+.panel-section {
+  width: 100%;
+  min-height: 0;
+  box-sizing: border-box;
+
+  padding: clamp(12px, 1.2vw, 18px);
+
+  background: #ffffff;
+
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+
+  box-shadow: 0 2px 6px rgba(10, 35, 66, 0.06);
+
+  overflow-y: auto;
+}
+
+/* --------------------------------
+   Section headings
+-------------------------------- */
+
+.panel-section h2 {
+  margin: 0 0 clamp(10px, 1vw, 16px);
+
+  color: #0a2342;
+
+  font-size: clamp(13px, 1.1vw, 15px);
+  font-weight: 700;
+
+  letter-spacing: 0.2px;
+}
+
+/* --------------------------------
+   AOI Select
+-------------------------------- */
+
+.panel-section label {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color: #2e4057;
+
+  font-size: clamp(10px, 0.9vw, 12px);
+  font-weight: 600;
+
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+
+.panel-section select {
+  width: 100%;
+  height: clamp(36px, 3vw, 42px);
+
+  padding: 0 12px;
+  box-sizing: border-box;
+
+  border: 1px solid #e5e5e5;
+  border-radius: 7px;
+
+  background: #f9f9f9;
+  color: #0a2342;
+
+  font-size: clamp(12px, 1vw, 14px);
+  font-weight: 600;
+
+  cursor: pointer;
+  outline: none;
+
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease,
+    background 0.15s ease;
+}
+
+.panel-section select:hover {
+  border-color: #1ba098;
+}
+
+.panel-section select:focus {
+  border-color: #1ba098;
+
+  box-shadow: 0 0 0 3px rgba(27, 160, 152, 0.12);
+
+  background: #ffffff;
+}
+
+/* --------------------------------
+   Select type
+-------------------------------- */
+
+.select-type {
+  display: inline-block;
+
+  margin-top: 8px;
+
+  color: #2e4057;
+
+  font-size: clamp(9px, 0.8vw, 11px);
+  font-weight: 500;
+}
+
+/* --------------------------------
+   Statistics
+-------------------------------- */
+
+.statistics-status {
+  padding: 14px;
+
+  border-radius: 7px;
+
+  background: #f9f9f9;
+  color: #2e4057;
+
+  font-size: clamp(11px, 0.9vw, 13px);
+
+  text-align: center;
+}
+
+.statistics-error {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  padding: 12px;
+
+  border-left: 3px solid #d95f3b;
+  border-radius: 5px;
+
+  background: rgba(217, 95, 59, 0.08);
+
+  color: #2e4057;
+
+  font-size: clamp(10px, 0.85vw, 12px);
+  line-height: 1.5;
+}
+
+.statistics-error strong {
+  color: #d95f3b;
+
+  font-size: clamp(10px, 0.85vw, 12px);
+}
+
+/* --------------------------------
+   Individual statistic
+-------------------------------- */
+
+.stat-item {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 12px;
+
+  padding: clamp(8px, 1vw, 13px) 4px;
+
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.stat-item:last-child {
+  border-bottom: none;
+  padding-bottom: 4px;
+}
+
+.stat-item:first-child {
+  padding-top: 2px;
+}
+
+/* --------------------------------
+   Statistic label
+-------------------------------- */
+
+.stat-label {
+  min-width: 0;
+
+  color: #2e4057;
+
+  font-size: clamp(10px, 0.9vw, 12px);
+
+  line-height: 1.4;
+}
+
+/* --------------------------------
+   Statistic value
+-------------------------------- */
+
+.stat-value {
+  flex-shrink: 0;
+
+  color: #0f7a6e;
+
+  font-size: clamp(11px, 1vw, 14px);
+  font-weight: 700;
+
+  text-align: right;
+
+  white-space: nowrap;
+}
+
+/* Installed capacity emphasis */
+
+.stat-item:first-child .stat-value {
+  color: #f5a623;
+}
+
+/* --------------------------------
+   Legend
+-------------------------------- */
+
+.legend-section {
+  border-top: 1px solid #e5e5e5;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+
+  gap: clamp(7px, 0.8vw, 10px);
+
+  margin-bottom: clamp(7px, 0.8vw, 12px);
+
+  color: #333;
+
+  font-size: clamp(11px, 1vw, 14px);
+}
+
+.legend-item:last-child {
+  margin-bottom: 0;
+}
+
+.legend-color {
+  width: clamp(14px, 1.3vw, 18px);
+  height: clamp(14px, 1.3vw, 18px);
+
+  border-radius: 4px;
+
+  display: inline-block;
+
+  flex-shrink: 0;
+}
+
+/* AOI Boundary */
+
+.legend-boundary {
+  background-color: rgba(27, 160, 152, 0.08);
+
+  border: 3px solid #1ba098;
+}
+
+/* Buildings */
+
+.legend-building {
+  background-color: rgba(15, 122, 110, 0.25);
+
+  border: 2px solid #0a2342;
+}
+
+/* Solar PV */
+
+.legend-solar {
+  background-color: #f5a623;
+
+  border: 2px solid #f5a623;
+}
+
+/* --------------------------------
+   Tablet
+-------------------------------- */
+
+@media (max-width: 768px) {
+  .left-panel {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .panel-section {
+    padding: 12px;
+  }
+
+  .stat-item {
+    gap: 8px;
+  }
+
+  .stat-label {
+    font-size: 11px;
+  }
+
+  .stat-value {
+    font-size: 12px;
+  }
+}
+
+/* --------------------------------
+   Small screens
+-------------------------------- */
+
+@media (max-width: 480px) {
+  .left-panel {
+    padding: 8px;
+    gap: 8px;
+  }
+
+  .panel-section {
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .panel-section h2 {
+    margin-bottom: 10px;
+  }
+
+  .stat-item {
+    padding: 7px 2px;
+  }
+
+  .stat-label {
+    font-size: 10px;
+  }
+
+  .stat-value {
+    font-size: 11px;
+  }
+
+  .legend-item {
+    font-size: 11px;
+  }
+}

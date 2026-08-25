@@ -1,0 +1,20 @@
+{
+    "ISLD": {
+        "name": "Islamabad",
+        "boundary": "/data/ISLD/Islamabad_boundary.geojson",
+        "buildings": "/data/ISLD/Islamabad_Buildings_all_stats.geojson",
+        "solarPV": "/data/ISLD/Islamabad_solarPV.geojson"
+    },
+    "LHR": {
+        "name": "Lahore",
+        "boundary": "/data/LHR/Lahore_Boundary.geojson",
+        "buildings": "/data/LHR/Lahore_buildings_all_stats.geojson",
+        "solarPV": "/data/LHR/Lahore_solarPV.geojson"
+    },
+    "KHI": {
+        "name": "Karachi",
+        "boundary": "/data/KHI/karachi_boundary.geojson",
+        "buildings": "/data/KHI/Karachi_building_all_stats_.geojson",
+        "solarPV": "/data/KHI/karachi_solarPV.geojson"
+    }
+}

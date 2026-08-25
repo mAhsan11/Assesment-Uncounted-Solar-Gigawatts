@@ -1,0 +1,24 @@
+.main-container{
+  height: 100vh;
+  width: 100vw;
+}
+
+.header-app{
+  height: 10%;
+  width: 100%;
+}
+
+.map-container{
+  height: 100%;
+  width: 75%;
+}
+.parent-map-leftpanel{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 90%;
+}
+.left-panel-container{
+  width: 25%;
+  height: 100%;
+}

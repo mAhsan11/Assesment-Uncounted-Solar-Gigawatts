@@ -1,0 +1,71 @@
+:root {
+  --brand-navy: #0a2342;
+  --brand-teal: #0f7a6e;
+  --brand-bright-teal: #1ba098;
+  --brand-navy-mid: #2e4057;
+  --color-grey: #e5e5e5;
+  --color-off-white: #f9f9f9;
+  --color-white: #ffffff;
+  --solar-amber: #f5a623;
+  --onshore-wind: #4ba3c3;
+  --offshore-wind: #045d75;
+  --storage-orange: #d95f3b;
+  --text-primary: #0a2342;
+  --text-secondary: #2e4057;
+  --border-color: #e5e5e5;
+  --page-background: #f9f9f9;
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+  --heading: system-ui, "Segoe UI", Roboto, sans-serif;
+
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.45;
+  font-weight: 400;
+
+  color: var(--text-primary);
+  background: var(--page-background);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--sans);
+  background: var(--page-background);
+  color: var(--text-primary);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-main {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+}
