@@ -10,6 +10,7 @@ import MoveMap from "./MoveMap";
 import "./css/GoogleMap.css"
 import FeaturePopup from "./FeaturePopup";
 import MapTypeToggler from "./MapTypeToggler";
+import ZoomControls from "./ZoomControl";
 
 function GoogleMap({ selectedAOI }) {
   const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
@@ -45,6 +46,7 @@ function GoogleMap({ selectedAOI }) {
           mapTypeId={"hybrid"}
         >
           <MapTypeToggler />
+          <ZoomControls />
           <MoveMap selectedAOI={selectedAOI} />
 
           {/*Boundary Layer*/}

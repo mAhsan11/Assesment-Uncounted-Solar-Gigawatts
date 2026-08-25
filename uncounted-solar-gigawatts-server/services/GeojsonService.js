@@ -20,7 +20,7 @@ const AOI_CONFIG = {
 
   KHI: {
     name: "Karachi",
-    boundary: "Karachi_boundary.geojson",
+    boundary: "karachi_boundary.geojson",
     buildings: "Karachi_building_all_stats_.geojson",
     solarPV: "karachi_solarPV.geojson",
   },

@@ -18,6 +18,6 @@ app.get("/api/health", (req, res) => {
 
 app.use("/api/aois", aoiRoutes);
 
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });

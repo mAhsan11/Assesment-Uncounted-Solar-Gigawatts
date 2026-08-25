@@ -1,0 +1,21 @@
+services:
+  frontend:
+    build:
+      context: ./uncounted-solar-gigawatts
+      args:
+        VITE_GOOGLE_MAPS_API_KEY: ${VITE_GOOGLE_MAPS_API_KEY}
+        VITE_API_URL: ${VITE_API_URL}
+    container_name: uncounted-solar-gigawatts-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: ./uncounted-solar-gigawatts-server
+    container_name: uncounted-solar-gigawatts-backend
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./.env
